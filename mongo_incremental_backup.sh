@@ -2,7 +2,7 @@
 # Create Full Dump
 #mongodump -u [USER] -p [PASSWORD] --host localhost --port 27017 --oplog --gzip -o /mnt/backups/`date \+\%Y\%m\%d_\%s`
 
-#Using MongoDB Ver.3.4
+#  *** Using MongoDB Ver.3.4  ***
 #Add in configuration 
 #/etc/mongo.conf 
 #...
