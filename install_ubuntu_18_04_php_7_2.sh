@@ -38,3 +38,5 @@ sudo apt-get install php7.2-spl -y
 sudo apt-get install php7.2-ldap -y
 sudo apt-get install php7.2-dev -y
 sudo apt-get install php7.2-xmlrpc -y
+
+sudo /etc/init.d/apache2 restart
