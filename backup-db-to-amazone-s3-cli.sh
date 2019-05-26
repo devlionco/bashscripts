@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# https://aws.amazon.com/ru/getting-started/tutorials/backup-to-s3-cli/  - aws instalations and configuration
+# https://aws.amazon.com/en/getting-started/tutorials/backup-to-s3-cli/  - aws instalations and configuration
 # script will make backup db and save dump in S3 each 3 days
 
 DBUSER='' #mysql DB username
