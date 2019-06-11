@@ -27,6 +27,8 @@ chmod 777 $PTAHTOMOODLEDATA -R
 cd $PATHTOMOODLE/admin/cli
 php install.php --lang=en --dbname=$PROJECTNAME --dbuser=$PROJECTNAME --dbpass=$PROJECTNAMEPASSWORD --fullname=$PROJECTNAME --shortname=$PROJECTNAME --adminuser=$USERADMIN --adminemail=$USERADMINEMAIL --wwwroot=$WWWROOT --dataroot=$PTAHTOMOODLEDATA --agree-license=1
 
+chown www-data:www-data $PATHTOMOODLE -R
+
 
 
 
