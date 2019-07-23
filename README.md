@@ -10,4 +10,5 @@
 * backup-moodle-full.sh - Bash script, that will backup MOODLE code, user files (moodledata) and DB. Script parses config.php to get DB configs. It clean backup dir after 7 days (may be configured).
 * backup-db-to-amazone-s3-cli.sh - Script will save DB dump file to amazone S3 service
 * backup_moodledetails_to_zip.sh - Script will backup moodle instance (DB, moodle files and moodledata files)
-* install_moodle_cli_script.sh - Script to build moodle instance on Ubuntu server. 
+* install_moodle_cli_script.sh - Script to build moodle instance on Ubuntu server.
+* install_metabase_18_04.sh - Script to install Open Source Metabase on Ubuntu 18.04 server  
