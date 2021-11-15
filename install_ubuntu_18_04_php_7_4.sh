@@ -17,9 +17,9 @@ sudo apt-get install mysql-server mysql-client -y
 #INSTALL PHP
 sudo add-apt-repository -y ppa:ondrej/php
 sudo apt-get update
+sudo apt-get install php7.4 -y
 sudo apt-get install php7.4-curl -y
 sudo apt-get install php7.4-zip -y
-sudo apt-get install php7.4 -y
 sudo apt-get install php7.4-cli -y
 sudo apt-get install php7.4-mysql -y
 sudo apt-get install php7.4-curl -y
