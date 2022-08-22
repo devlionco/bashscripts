@@ -22,7 +22,6 @@ sudo apt-get install php7.4-curl -y
 sudo apt-get install php7.4-zip -y
 sudo apt-get install php7.4-cli -y
 sudo apt-get install php7.4-mysql -y
-sudo apt-get install php7.4-curl -y
 sudo apt-get install libapache2-mod-php7.4 -y
 sudo apt-get install php7.4-zip -y
 sudo apt-get install php7.4-mbstring -y
@@ -38,5 +37,10 @@ sudo apt-get install php7.4-spl -y
 sudo apt-get install php7.4-ldap -y
 sudo apt-get install php7.4-dev -y
 sudo apt-get install php7.4-xmlrpc -y
+sudo apt-get install php7.4-mcrypt -y
+sudo apt-get install php7.4-bcmath -y
+sudo apt-get install php7.4-sodium -y
+sudo apt-get install php7.4-yaml -y
+
 
 sudo /etc/init.d/apache2 restart
