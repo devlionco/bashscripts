@@ -12,3 +12,6 @@
 * backup_moodledetails_to_zip.sh - Script will backup moodle instance (DB, moodle files and moodledata files)
 * install_moodle_cli_script.sh - Script to build moodle instance on Ubuntu server.
 * install_metabase_18_04.sh - Script to install Open Source Metabase on Ubuntu 18.04 server  
+* install_aws_ubuntu_22_php_7_4.sh - Script to install LAMP php 7.4 Ubuntu on AWS for Moodle Instance
+* install_aws_ubuntu_22_php_8_1.sh - Script to install LAMP php 8.1 Ubuntu on AWS for Moodle Instance
+* switchphpversion.sh - Script to switch php 7.4 to php 7.8
