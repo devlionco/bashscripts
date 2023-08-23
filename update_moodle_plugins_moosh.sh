@@ -1,4 +1,7 @@
 #!/bin/bash 
 while IFS= read -r line; do
-   moosh plugins-install $line
-done < plugins.txt 
+   echo -e "**********************************************"
+   echo  -e "\ntry" $line
+   moosh -n  plugin-install -f  $line
+done < plugins.txt
+
