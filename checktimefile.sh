@@ -3,7 +3,7 @@
 path="/var/www/"
 subject="Alert"
 message="Alert"
-tomail="kiril@devlion.co"
+tomail=""
 diftime="86400"
 
 for file in `ls -l | awk '{print $9}'`
