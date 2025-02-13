@@ -1,6 +1,8 @@
 #!/bin/bash
 #
 
+# !!!Please change git commands for your system.!!!
+
 cd petel41
 
 path="question/type/numerical" 
@@ -12,9 +14,13 @@ path="question/type/numerical"
 
 # Revert git.
 git reset --hard
-git checkout m415_petel
+git checkout prod_m41
 git branch -D dev_m41X_petel
-git checkout -b dev_m41X_petel origin/dev_m41X_petel
+git branch dev_m41X_petel
+git checkout dev_m41X_petel
+
+
+# =================================================================================================
 
 # Clear screen
 clear
